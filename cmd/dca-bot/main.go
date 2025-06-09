@@ -15,12 +15,12 @@ import (
 func main() {
 	logFile, err := os.OpenFile("dca.log", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
-		log.Fatalf("❌ Не удалось открыть dca.log: %v", err)
+		log.Fatalf("❌  Couldn't open dca.log: %v", err)
 	}
 	log.SetOutput(io.MultiWriter(os.Stdout, logFile))
 
 	// Load .env
-	err := godotenv.Load()
+	err = godotenv.Load()
 	if err != nil {
 		log.Fatalf("❌ Couldn't load .env: %v", err)
 	}
