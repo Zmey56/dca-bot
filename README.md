@@ -59,10 +59,22 @@ To run tests, use the command:
 go test ./...
 ```
 
-## Want a Full Step-by-Step Guide?
-If you're new to Go, Binance API, or DCA logic — check out this detailed walkthrough with code and context:
+---
 
-Step-by-Step Guide to Building a DCA Bot in Go
+## What’s Next?
+
+This bot is an early version of a larger vision: a full-featured system that analyzes crypto markets and provides DCA signals — potentially through platforms like Telegram.
+
+For now, the focus is on giving developers and traders a clean, extensible base to build and experiment with DCA strategies using the Binance API.
+
+---
+
+## 📚 Full Walkthrough Article
+
+If you’d like a detailed, beginner-friendly explanation of how this bot works, including the rationale behind each part:
+
+👉 [Step-by-Step Guide to Creating a DCA Bot in Go with Binance API](https://medium.com/@alsgladkikh/step-by-step-guide-on-how-to-create-a-dca-bot-on-go-using-the-binance-api-b4eada9c83b9)
+
 
 ## License
 
